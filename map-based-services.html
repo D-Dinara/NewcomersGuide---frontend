@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewcomersGuide</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/map-based-services.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="navigation">
+            <div class="title-container">
+                <div class="title-logo"></div>
+                <a class="title" href="index.html">NewcomersGuide</a>
+            </div>
+            <div class="menu">
+                <a class="menu-link" href="step-by-step.html">Step-by-Step Guides</a>        
+                <a class="menu-link" href="map-based-services.html">Map-Based Services</a>        
+                <a class="menu-link" href="events.html">Local Events</a>
+                <a class="menu-link" href="#">Forums</a>
+                <form class="search-in-site" action="">
+                    <input class="search-site-input" type="text" placeholder="Search in site">
+                    <img src="assets/search.png" alt="search" width="18px" height="18px">
+                </form>
+            </div>
+        </div>
+    </nav>
+    <hr>
+    <section id="step-by-step" class="step-by-step-section">
+        <h1 class="heading-name">Map-Based Services Directory</h2>
+        <p class="heading-description">Find settlement services near you</p>
+        <form class="search-map-form" action="">
+            <input type="text" placeholder="Enter your postal code"/>
+            <button>Search</button>
+        </form>
+        <div class="select-buttons-container">
+            <h5>Select Category</h5>
+            <button class="select-category-btn">Housing</button>
+            <button class="select-category-btn">Education</button>
+            <button class="select-category-btn">Employment</button>
+            <button class="select-category-btn">Healthcare</button>
+            <button class="select-category-btn">Legal Services</button>
+        </div>
+     </section>
+     <hr>
+
+     <div class="interactive-map">
+        MAP
+    </div>
+
+     <hr>
+
+     <section id="map-based-services" class="map-section">
+        <div class="map-container">
+            <h2 class="heading-name">Recommended Services</h2>
+            <p class="heading-description">Here are the top 3 services for newcomers</p>
+
+            <div class="map-item">
+                <img class="service-image" src="assets/image.jpg" alt="Service image" width="100px" height="100px">
+                <div class="map-item-details">
+                    <h3>Settlement Agency</h3>
+                    <h4>Address: 123 Main St</h4>
+                    <p class="map-item-description">Phone: 123-456-7890</p>
+                    <p class="location">Category: Organization</p>
+                    <div class="contacts">
+                        <div class="title-container">
+                            <div class="organization-logo"></div>
+                            <p class="organization-title">Website: www.settlementagency.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="map-item">
+                <img class="service-image" src="assets/image.jpg" alt="Service image" width="100px" height="100px">
+                <div class="map-item-details">
+                    <h3>Language School</h3>
+                    <h4>AAddress: 456 Oak Ave</h4>
+                    <p class="map-item-description">Phone: 987-654-3210</p>
+                    <p class="location">Category: Education</p>
+                    <div class="contacts">
+                        <div class="title-container">
+                            <div class="organization-logo"></div>
+                            <p class="organization-title">Website: www.languageschool.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <div class="map-item">
+                <img class="service-image" src="assets/image.jpg" alt="Service image" width="100px" height="100px">
+                <div class="map-item-details">
+                    <h3>Employment Centre</h3>
+                    <h4>Address: 789 Elm Rd</h4>
+                    <p class="map-item-description">Phone: 246-135-7908</p>
+                    <p class="location">Category: Job Services</p>
+                    <div class="contacts">
+                        <div class="title-container">
+                            <div class="organization-logo"></div>
+                            <p class="organization-title">Website: www.employmentcentre.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </div>
+        <div class="integrated-map">
+            <p>MAP</p>
+        </div>
+     </section>
+     <hr>
+     <section id="featured-services" class="featured-services-section">
+        <h2 class="heading-name">Featured Services</h2>
+        <div class="guides-container">
+            <div class="category">
+                <div class="services-icon">
+                    <img src="assets/housing-icon.png" alt="Icon">
+                </div>
+                <h3>Housing Services</h3>
+                <p class="service-description">Find rental assistance and affordable housing options</p>
+                <h5 class="number-of-services">132 Services</h5>
+            </div>
+
+            <div class="category">
+                <div class="services-icon">
+                    <img src="assets/employment-icon.png" alt="Icon">
+                </div>
+                <h3>Employment Services</h3>
+                <p class="service-description">Discover job placements and career development programs</p>
+                <h5 class="number-of-services">87 Services</h5>
+            </div>
+
+            <div class="category">
+                <div class="services-icon">
+                    <img src="assets/education-icon.png" alt="Icon">
+                </div>
+                <h3>Education Services</h3>
+                <p class="service-description">Access language classes and educational resources</p>
+                <h5 class="number-of-services">56 Services</h5>
+            </div>
+        </div>
+     </section>
+
+     <hr>
+     <div class="form-container">
+        <form action="" class="question-form">
+            <h2 class="heading-name">Can't Find What You're Looking For?</h2>
+            <label for="">Service Name</label>
+            <input type="text" placeholder="Enter service name">
+            <label for="">City</label>
+            <input type="text" placeholder="Enter city name">
+            <label for="">Description</label>
+            <input type="text" placeholder="Tell us how we can help! ">
+            <p class="optional">Optional</p>
+            <div class="submit-btn">
+                <button class="reset">Reset</button>
+                <button>Submit</button>
+            </div>
+        </form>
+        <img src="assets/image.jpg" alt="form">
+    </div>
+     <hr>
+    <footer>
+        <a class="menu-link" href="#">About Us</a>        
+        <a class="menu-link" href="#">Contact Us</a>        
+        <a class="menu-link" href="#">Privacy Policy</a>
+        <a class="menu-link" href="#">Terms of Service</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
