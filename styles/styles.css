@@ -243,6 +243,11 @@ hr {
     background-color: #D9D9D9;
 }
 
+iframe {
+    height: 100%;
+    width: 100%;
+}
+
 .map-item {
     display: flex;
     border: 1px solid #D9D9D9;
